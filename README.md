@@ -16,8 +16,10 @@ In this project, you will build a number guessing game to play in the command li
 
 # Variables
 * Variables are used to store data values, so we can use them later.
+
 ``` my_lucky_number = 15
 ```
+
 ```
   my_name = "Rachel"
  ```
