@@ -3,9 +3,11 @@ In this project, you will build a number guessing game to play in the command li
 
 # Lesson Skills:
 * Integers and strings
+* Integer operations
 * Variables
 * Random function
 * Input/output
+* Loops
 
 # Integers/strings
 * In programming languages, we can think about data in terms of different categories. For example, we consider words and sentences ("hi friend!") to be different from integers (100), or even decimal numbers (1.2345)
@@ -13,6 +15,8 @@ In this project, you will build a number guessing game to play in the command li
   - **Integers** are whole numbers. They can be positive or negative, but cannot be followed by a decimal point. Examples of integers include 1, 2, 5, 1000, -586003, 7575757575
   - **Strings** are sequences of characters. When using strings, we always put quotes around the word/sentence. Examples of strings include, "code", "hello world", "i love my dog"
  - [More on python data types](https://realpython.com/python-data-types/)
+
+# Python Comparison Operators
 
 # Variables
 * Variables are used to store data values, so we can use them later.
@@ -39,4 +43,5 @@ print random.randint(1, 5) # returns a random number between 1 and 5
 ```
 
 # Input/output
-im
+* Since this game is run through the command line, we can store user input and print back to the command line
+
