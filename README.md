@@ -27,8 +27,16 @@ my_lucky_number = 15
   my_name = "Rachel"
  ```
 * Note: in some programming languages, when you define a variable, you must also declare what data type it will store. Python is dynamically typed, which means we don't have to declare what type each variable is.
+* [More on python variables](https://realpython.com/python-variables/)
 
 # Random function
+* A function is a block of code that runs when it is called. You can also pass data, known as parameters, into a function.
+* You can write your own functions, use python built-in functions, or even use functions that other people have written!
+* The random function is a special function that generates a random number. For example
+``
+import random
+print random.randint(1, 5) # returns a random number between 1 and 5
+``
 
 # Input/output
-
+im
