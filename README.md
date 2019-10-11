@@ -9,6 +9,7 @@ In this project, you will build a number guessing game to play in the command li
 * Input/output
 * Conditionals
 * Loops
+* Binary search (optional)
 
 # Data Types
 * In programming languages, we can think about data in terms of different categories. For example, we consider words and sentences ("hi friend!") to be different from integers (100), or even decimal numbers (1.2345)
@@ -136,3 +137,8 @@ Printed output:
 1
 ````
 [More on loops](http://www.openbookproject.net/books/bpp4awd/ch04.html)
+
+# Optional: Binary Search
+* Is there a way we can speed up how quickly we guess the number? 
+* Binary search is an efficient algorithm for searching for numbers
+* [Learn more about binary search here](https://www.youtube.com/watch?v=EXtkCmRXfMo)
