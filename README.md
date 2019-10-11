@@ -17,12 +17,16 @@ In this project, you will build a number guessing game to play in the command li
 # Variables
 * Variables are used to store data values, so we can use them later.
 
-``` my_lucky_number = 15
+* Declaring an integer variable
+``` 
+my_lucky_number = 15
 ```
 
+* Declaring a string variable
 ```
   my_name = "Rachel"
  ```
+* Note: in some programming languages, when you define a variable, you must also declare what data type it will store. Python is dynamically typed, which means we don't have to declare what type each variable is.
 
 # Random function
 
