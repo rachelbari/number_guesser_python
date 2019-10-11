@@ -1,7 +1,7 @@
 import random
 
 if __name__=="__main__":
-    random_number = random.randint(1,101)
+    random_number = random.randint(1,100)
     is_guessed = False
     while is_guessed is False:
         guessed_number_string = input("Guess a number between 1 and 100: ")
