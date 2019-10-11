@@ -8,7 +8,7 @@ if __name__=="__main__":
         guessed_number_int = int(guessed_number_string)
         if guessed_number_int is random_number:
             print("correct! the number is: {}".format(random_number))
-            break
+            is_guessed = True
         elif guessed_number_int > random_number:
             print("your guess is too high")
         else:
