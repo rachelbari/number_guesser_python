@@ -35,6 +35,7 @@ my_lucky_number = 15
 * The random function is a special function that generates a random number. For example
 ``
 import random
+
 print random.randint(1, 5) # returns a random number between 1 and 5
 ``
 
