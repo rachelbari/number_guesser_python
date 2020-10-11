@@ -38,7 +38,7 @@ my_name = "Rachel"
 * [More on python variables](https://realpython.com/python-variables/)
 
 # Python Comparison Operators
-* We can compare data types or variables using comparison operators, including **==**, **is**, **>**, **<**, **>=**, **<=**
+* We can compare data types or variables using comparison operators, including **==**, **!=**, **is**, **>**, **<**, **>=**, **<=**
 * These operators return True or False values
 ```
 "hello" == "hello" // returns True
@@ -49,7 +49,9 @@ number1 = 5
 number2 = 5
 number3 = 100
 
-number1 is number5 // returns True
+number1 == number2 // returns True
+number1 is number2 // returns True
+number1 != number3 // returns True
 number2 >= number3 // returns False
 number3 > number2 // returns True
 
@@ -137,6 +139,14 @@ Printed output:
 1
 ````
 [More on loops](http://www.openbookproject.net/books/bpp4awd/ch04.html)
+
+# Try it yourself! 
+Now that we have covered all the python fundamentals for programming a number guesser name, try coding it yourself! The game should include the following componenets:
+* A variable storing a random number
+* A boolean ``is_guessed`` initialized to ``False`` and a while loop checking whether or not ``is_guessed`` equals ``True`` (the value of ``is_guessed`` should be set to ``True`` when the user guesses the number)
+* Logic for comparing the user inputted guess with the random number
+* A way of printing to the command line whether the guess is higher or lower than the random number
+* If you get stuck, you can check out the sample solution [here](https://github.com/rachelsterneck/number_guesser_python/blob/master/number_guesser.py)!
 
 # Optional: Binary Search
 * Is there a way we can speed up how quickly we guess the number? 
